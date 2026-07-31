@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { MessageCircle } from "lucide-react";
+import PageHeader from "@/components/PageHeader";
 import SectionHeading from "@/components/SectionHeading";
 import EquipmentCard from "@/components/EquipmentCard";
+import Button from "@/components/Button";
 import { cameras, lenses, accessories } from "@/data/equipment";
 import { whatsappLink } from "@/data/siteConfig";
 
@@ -23,18 +24,14 @@ export default function EquipmentPage() {
     <>
       <section className="relative overflow-hidden pb-8 pt-32 md:pt-40">
         <div className="mx-auto max-w-7xl px-5 md:px-8">
-          <p className="eyebrow text-brass">Our Inventory</p>
-          <h1 className="mt-3 max-w-2xl font-display text-4xl font-extrabold uppercase leading-[0.98] tracking-wide text-ivory md:text-5xl">
-            Equipment for Every Production
-          </h1>
-          <p className="mt-4 max-w-xl text-[15px] leading-relaxed text-ivory-muted">
-            Every camera, lens, and accessory below is available for daily
-            rental. Rates shown are per day — message us on WhatsApp for
-            multi-day and long-term production pricing.
-          </p>
+          <PageHeader
+            eyebrow="Our Inventory"
+            title="Equipment for Every Production"
+            description="Every camera, lens, and accessory below is available for daily rental. Rates shown are per day — message us on WhatsApp for multi-day and long-term production pricing."
+          />
         </div>
 
-        <div className="no-print sticky top-[68px] z-30 mt-8 border-y border-surface-border bg-ink/95 backdrop-blur">
+        <div className="no-print sticky top-[60px] z-30 mt-8 border-y border-surface-border bg-ink/95 backdrop-blur md:top-[72px]">
           <div className="mx-auto flex max-w-7xl gap-1 overflow-x-auto px-5 md:px-8">
             {quickLinks.map((q) => (
               <a
@@ -129,21 +126,16 @@ export default function EquipmentPage() {
             availability or source it for your production.
           </p>
           <div className="mt-7 flex flex-col items-center justify-center gap-3.5 sm:flex-row">
-            <a
+            <Button
               href={whatsappLink("Hi, I'd like to check availability for some equipment.")}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-sm bg-brass px-7 py-3.5 text-sm font-semibold uppercase tracking-wide text-ink transition-colors hover:bg-brass-light"
+              external
             >
               <MessageCircle size={16} />
               Ask on WhatsApp
-            </a>
-            <Link
-              href="/rate-card"
-              className="inline-flex items-center justify-center gap-2 rounded-sm border border-ivory/25 px-7 py-3.5 text-sm font-semibold uppercase tracking-wide text-ivory transition-colors hover:border-brass hover:text-brass"
-            >
+            </Button>
+            <Button href="/rate-card" variant="secondary">
               View Full Rate Card
-            </Link>
+            </Button>
           </div>
         </div>
       </section>

@@ -1,9 +1,11 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
-import { Menu, X, MessageCircle } from "lucide-react";
+import { Menu, X, MessageCircle, Phone } from "lucide-react";
+import Button from "@/components/Button";
 import { siteConfig, whatsappLink } from "@/data/siteConfig";
 
 const links = [
@@ -40,10 +42,15 @@ export default function Navbar() {
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 md:px-8">
-        <Link href="/" className="group flex items-center gap-2.5">
-          <span className="relative flex h-2.5 w-2.5">
-            <span className="absolute inline-flex h-full w-full animate-pulseTally rounded-full bg-tally tally-dot" />
-          </span>
+        <Link href="/" className="flex items-center gap-2.5">
+          <Image
+            src="/images/logo-mark.png"
+            alt={`${siteConfig.shortName} logo`}
+            width={42}
+            height={24}
+            className="h-8 w-auto md:h-9"
+            priority
+          />
           <span className="font-display text-xl font-bold uppercase tracking-wide text-ivory md:text-2xl">
             Ramesh Chavare <span className="text-brass">Films</span>
           </span>
@@ -64,15 +71,10 @@ export default function Navbar() {
         </nav>
 
         <div className="hidden md:block">
-          <a
-            href={whatsappLink()}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-sm bg-brass px-4 py-2.5 text-sm font-semibold text-ink transition-colors hover:bg-brass-light"
-          >
+          <Button href={whatsappLink()} size="sm" external>
             <MessageCircle size={16} strokeWidth={2.5} />
             WhatsApp Us
-          </a>
+          </Button>
         </div>
 
         <button
@@ -101,21 +103,18 @@ export default function Navbar() {
               </Link>
             ))}
           </nav>
-          <a
-            href={whatsappLink()}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-4 flex items-center justify-center gap-2 rounded-sm bg-brass px-4 py-3 text-sm font-semibold text-ink"
-          >
-            <MessageCircle size={16} strokeWidth={2.5} />
-            WhatsApp Us
-          </a>
-          <a
-            href={`tel:+${siteConfig.contact.phonePrimaryRaw}`}
-            className="mt-2 flex items-center justify-center gap-2 rounded-sm border border-surface-border px-4 py-3 text-sm font-semibold text-ivory"
-          >
-            Call {siteConfig.contact.phonePrimary}
-          </a>
+          <div className="mt-4">
+            <Button href={whatsappLink()} external className="w-full">
+              <MessageCircle size={16} strokeWidth={2.5} />
+              WhatsApp Us
+            </Button>
+          </div>
+          <div className="mt-2.5">
+            <Button href={`tel:+${siteConfig.contact.phonePrimaryRaw}`} variant="secondary" className="w-full">
+              <Phone size={16} strokeWidth={2.5} />
+              Call {siteConfig.contact.phonePrimary}
+            </Button>
+          </div>
         </div>
       )}
     </header>

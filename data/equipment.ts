@@ -48,7 +48,7 @@ export const cameras: Camera[] = [
     brand: "RED",
     model: "V-Raptor XL 8K VV",
     image:
-      "https://images.unsplash.com/photo-1585828922344-85b0a2c04302?q=80&w=1200&auto=format&fit=crop",
+      "https://picsum.photos/seed/rcf-red-v-raptor-xl/1200/900",
     description:
       "Flagship full-frame cinema camera for high-end wedding features, commercials, and narrative work. Exceptional dynamic range and modularity.",
     specs: ["8K VV Sensor", "17+ Stops DR", "Up to 120fps in 8K", "RF Mount"],
@@ -60,7 +60,7 @@ export const cameras: Camera[] = [
     brand: "ARRI",
     model: "Alexa Mini LF",
     image:
-      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=1200&auto=format&fit=crop",
+      "https://picsum.photos/seed/rcf-arri-alexa-mini-lf/1200/900",
     description:
       "Industry-standard large-format cinema camera known for its signature ARRI colour science and reliability on demanding sets.",
     specs: ["LF Sensor", "14+ Stops DR", "ARRI LPL Mount", "4.5K ProRes"],
@@ -72,7 +72,7 @@ export const cameras: Camera[] = [
     brand: "Sony",
     model: "Cinema Line FX6",
     image:
-      "https://images.unsplash.com/photo-1493863641943-9b68992a8d07?q=80&w=1200&auto=format&fit=crop",
+      "https://picsum.photos/seed/rcf-sony-fx6/1200/900",
     description:
       "Compact full-frame cinema camera ideal for run-and-gun wedding coverage and documentary-style shoots with dual base ISO.",
     specs: ["Full-Frame 4K", "Dual Base ISO", "E-Mount", "120fps 4K"],
@@ -84,7 +84,7 @@ export const cameras: Camera[] = [
     brand: "Sony",
     model: "Cinema Line FX3",
     image:
-      "https://images.unsplash.com/photo-1519183071298-a2962be90b8e?q=80&w=1200&auto=format&fit=crop",
+      "https://picsum.photos/seed/rcf-sony-fx3/1200/900",
     description:
       "Compact and lightweight, built for gimbal and handheld work where size and low-light performance matter most.",
     specs: ["Full-Frame 4K", "S-Cinetone", "E-Mount", "Built-in Fan"],
@@ -95,7 +95,7 @@ export const cameras: Camera[] = [
     brand: "Blackmagic Design",
     model: "URSA Mini Pro 12K",
     image:
-      "https://images.unsplash.com/photo-1580136579312-94651dfd596d?q=80&w=1200&auto=format&fit=crop",
+      "https://picsum.photos/seed/rcf-blackmagic-ursa-12k/1200/900",
     description:
       "Extreme resolution for commercial and VFX-heavy productions requiring maximum reframing flexibility in post.",
     specs: ["12K Super 35", "14 Stops DR", "PL/EF Mount", "Blackmagic RAW"],
@@ -106,7 +106,7 @@ export const cameras: Camera[] = [
     brand: "Canon",
     model: "EOS C300 Mark III",
     image:
-      "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?q=80&w=1200&auto=format&fit=crop",
+      "https://picsum.photos/seed/rcf-canon-c300-mk3/1200/900",
     description:
       "Dependable Super 35 workhorse with a proven autofocus system, well suited to interviews and event coverage.",
     specs: ["Super 35 DGO", "16 Stops DR", "EF/PL Mount", "Dual Pixel AF"],
@@ -121,7 +121,7 @@ export const lenses: Lens[] = [
     mount: "PL",
     focalLength: "21 / 29 / 40 / 65 / 100mm",
     image:
-      "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?q=80&w=1200&auto=format&fit=crop",
+      "https://picsum.photos/seed/rcf-zeiss-supreme-prime-set/1200/900",
     description:
       "A full set of modern cinema primes with consistent colour rendering and a gentle, flattering falloff — a favourite for feature work.",
     dailyRate: 12000,
@@ -133,7 +133,7 @@ export const lenses: Lens[] = [
     mount: "PL",
     focalLength: "18 / 25 / 32 / 50 / 75mm",
     image:
-      "https://images.unsplash.com/photo-1516724562728-afc824a36e84?q=80&w=1200&auto=format&fit=crop",
+      "https://picsum.photos/seed/rcf-cooke-s4i-set/1200/900",
     description:
       "The legendary 'Cooke Look' — warm skin tones and smooth bokeh, prized by wedding and portrait cinematographers.",
     dailyRate: 10000,
@@ -145,7 +145,7 @@ export const lenses: Lens[] = [
     mount: "EF / E",
     focalLength: "24 / 35 / 50 / 85mm",
     image:
-      "https://images.unsplash.com/photo-1606986628253-05620e9ee0a7?q=80&w=1200&auto=format&fit=crop",
+      "https://picsum.photos/seed/rcf-sigma-art-prime-set/1200/900",
     description:
       "Sharp, contrasty, and budget-friendly — an excellent option for content creators and independent filmmakers.",
     dailyRate: 3500,
@@ -156,7 +156,7 @@ export const lenses: Lens[] = [
     mount: "EF / PL",
     focalLength: "30–105mm",
     image:
-      "https://images.unsplash.com/photo-1519638831568-d9897f54ed69?q=80&w=1200&auto=format&fit=crop",
+      "https://picsum.photos/seed/rcf-canon-cn-e-zoom/1200/900",
     description:
       "A versatile cinema zoom that keeps focus consistent through the range — ideal for run-and-gun documentary coverage.",
     dailyRate: 3000,
@@ -167,7 +167,7 @@ export const lenses: Lens[] = [
     mount: "E / RF",
     focalLength: "24 / 35 / 50 / 75mm",
     image:
-      "https://images.unsplash.com/photo-1500310527395-b1a05a4e5bcc?q=80&w=1200&auto=format&fit=crop",
+      "https://picsum.photos/seed/rcf-sirui-anamorphic-set/1200/900",
     description:
       "Signature oval bokeh and horizontal flares for productions chasing a distinct widescreen cinematic look.",
     dailyRate: 4500,
@@ -180,7 +180,7 @@ export const accessories: Accessory[] = [
     name: "DJI Ronin 4D",
     category: "Stabilizers",
     image:
-      "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=1200&auto=format&fit=crop",
+      "https://picsum.photos/seed/rcf-dji-ronin-4d/1200/900",
     description:
       "Integrated gimbal camera system with built-in LiDAR focusing — smooth, cable-free stabilised movement.",
     dailyRate: 5500,
@@ -191,7 +191,7 @@ export const accessories: Accessory[] = [
     name: "DJI RS 3 Pro Gimbal",
     category: "Stabilizers",
     image:
-      "https://images.unsplash.com/photo-1478720568477-152d9b164e26?q=80&w=1200&auto=format&fit=crop",
+      "https://picsum.photos/seed/rcf-dji-rs3-pro/1200/900",
     description:
       "Compact 3-axis gimbal supporting most mirrorless and cinema camera bodies for handheld cinematic motion.",
     dailyRate: 1800,
@@ -202,7 +202,7 @@ export const accessories: Accessory[] = [
     name: "Aputure 600D Pro",
     category: "Lighting",
     image:
-      "https://images.unsplash.com/photo-1594394352636-2dc1a4b7c1c8?q=80&w=1200&auto=format&fit=crop",
+      "https://picsum.photos/seed/rcf-aputure-600d-pro/1200/900",
     description:
       "Powerful daylight-balanced LED fixture for key lighting on location or in-studio shoots.",
     dailyRate: 2200,
@@ -213,7 +213,7 @@ export const accessories: Accessory[] = [
     name: "Aputure 300X Two-Light Set",
     category: "Lighting",
     image:
-      "https://images.unsplash.com/photo-1552168324-d612d77725e3?q=80&w=1200&auto=format&fit=crop",
+      "https://picsum.photos/seed/rcf-aputure-300x-set/1200/900",
     description:
       "Two matched bi-colour LEDs with softboxes — a complete two-point lighting kit for interviews and portraits.",
     dailyRate: 3000,
@@ -223,7 +223,7 @@ export const accessories: Accessory[] = [
     name: "Sennheiser EW 112P G4 Wireless Lav",
     category: "Audio",
     image:
-      "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?q=80&w=1200&auto=format&fit=crop",
+      "https://picsum.photos/seed/rcf-sennheiser-wireless-lav/1200/900",
     description:
       "Reliable wireless lavalier system for clean dialogue capture during interviews and event coverage.",
     dailyRate: 1200,
@@ -233,7 +233,7 @@ export const accessories: Accessory[] = [
     name: "Rode NTG5 Shotgun Mic Kit",
     category: "Audio",
     image:
-      "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?q=80&w=1200&auto=format&fit=crop",
+      "https://picsum.photos/seed/rcf-rode-ntg5/1200/900",
     description:
       "Broadcast-grade shotgun microphone with boom pole and blimp for on-camera and boom-operated audio.",
     dailyRate: 900,
@@ -243,7 +243,7 @@ export const accessories: Accessory[] = [
     name: "Atomos Ninja V Monitor-Recorder",
     category: "Monitors",
     image:
-      "https://images.unsplash.com/photo-1601506521937-0121a7fc2a6b?q=80&w=1200&auto=format&fit=crop",
+      "https://picsum.photos/seed/rcf-atomos-ninja-v/1200/900",
     description:
       "5-inch HDR monitor and ProRes RAW recorder for accurate on-set exposure and focus checking.",
     dailyRate: 1500,
@@ -253,7 +253,7 @@ export const accessories: Accessory[] = [
     name: "Manfrotto 504X Fluid Head Tripod",
     category: "Support",
     image:
-      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=1200&auto=format&fit=crop",
+      "https://picsum.photos/seed/rcf-manfrotto-tripod-kit/1200/900",
     description:
       "Professional fluid-head tripod system delivering smooth pans and reliable support for cinema bodies.",
     dailyRate: 800,
@@ -263,7 +263,7 @@ export const accessories: Accessory[] = [
     name: "Motorised Camera Slider (100cm)",
     category: "Support",
     image:
-      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?q=80&w=1200&auto=format&fit=crop",
+      "https://picsum.photos/seed/rcf-slider-motorized/1200/900",
     description:
       "Programmable motorised slider for smooth, repeatable camera moves in product and interview setups.",
     dailyRate: 1600,

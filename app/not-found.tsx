@@ -1,5 +1,5 @@
-import Link from "next/link";
 import { MessageCircle, ArrowRight } from "lucide-react";
+import Button from "@/components/Button";
 import { whatsappLink } from "@/data/siteConfig";
 
 export default function NotFound() {
@@ -14,22 +14,14 @@ export default function NotFound() {
         the main feature.
       </p>
       <div className="mt-8 flex flex-col gap-3.5 sm:flex-row">
-        <Link
-          href="/"
-          className="inline-flex items-center justify-center gap-2 rounded-sm bg-brass px-7 py-3.5 text-sm font-semibold uppercase tracking-wide text-ink transition-colors hover:bg-brass-light"
-        >
+        <Button href="/">
           Back to Home
           <ArrowRight size={16} />
-        </Link>
-        <a
-          href={whatsappLink()}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center justify-center gap-2 rounded-sm border border-ivory/25 px-7 py-3.5 text-sm font-semibold uppercase tracking-wide text-ivory transition-colors hover:border-brass hover:text-brass"
-        >
+        </Button>
+        <Button href={whatsappLink()} variant="secondary" external>
           <MessageCircle size={16} />
           WhatsApp Us
-        </a>
+        </Button>
       </div>
     </section>
   );

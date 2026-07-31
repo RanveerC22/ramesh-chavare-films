@@ -62,12 +62,32 @@ data/
 
 public/
   rate-card.pdf            Downloadable rate card PDF
-  favicon.ico, icons        Site icons
+  favicon.ico, icons        Site icons (generated from your logo)
+  images/logo.png            Full logo (icon + wordmark), background removed
+  images/logo-mark.png        Icon-only mark, used in the Navbar and Footer
+  images/og-image.jpg         Social share preview image
 ```
 
 ---
 
-## 4. Editing content (no code changes needed)
+## 4. Your logo
+
+Your logo has been processed and wired in across the site:
+- **Navbar & Footer** use `public/images/logo-mark.png` (just the icon,
+  background removed) next to the live text wordmark.
+- **Favicon, browser tab icon, and Apple touch icon** were regenerated from
+  your icon mark.
+- **The Open Graph share image** (`public/images/og-image.jpg`) — shown when
+  the site is shared on WhatsApp, Facebook, etc. — now features your logo.
+
+If you get a higher-resolution or a true transparent-background version of
+your logo later, just replace `public/images/logo.png` and
+`public/images/logo-mark.png` with your updated files (same filenames), and
+everything above updates automatically.
+
+---
+
+## 5. Editing content (no code changes needed)
 
 ### Contact details, phone numbers, socials, business hours
 Edit `data/siteConfig.ts`. Every phone number, WhatsApp link, email,
@@ -125,7 +145,7 @@ Replace `contact.mapEmbedUrl` and `contact.mapLinkUrl` in
 
 ---
 
-## 5. Design system
+## 6. Design system
 
 - **Colors**: near-black ink background, warm ivory text, brushed brass
   accent, and a restrained tally-red used only for record/live indicators.
@@ -139,7 +159,7 @@ All design tokens live in `tailwind.config.ts` and `app/globals.css`.
 
 ---
 
-## 6. SEO
+## 7. SEO
 
 - Metadata (title, description, Open Graph, Twitter cards) is set per-page
   via Next.js Metadata API.

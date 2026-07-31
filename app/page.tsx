@@ -17,6 +17,7 @@ import Ticker from "@/components/Ticker";
 import SectionHeading from "@/components/SectionHeading";
 import EquipmentCard from "@/components/EquipmentCard";
 import TestimonialCard from "@/components/TestimonialCard";
+import Button from "@/components/Button";
 import { cameras, lenses, accessories } from "@/data/equipment";
 import { testimonials, featuredProductions, instagramPreview } from "@/data/content";
 import { siteConfig, whatsappLink } from "@/data/siteConfig";
@@ -33,6 +34,7 @@ export default function HomePage() {
           alt="Cinema camera rig on a professional film set"
           fill
           priority
+          sizes="100vw"
           className="object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-ink/70 via-ink/75 to-ink" />
@@ -53,22 +55,14 @@ export default function HomePage() {
           </p>
 
           <div className="mt-9 flex flex-col gap-3.5 sm:flex-row">
-            <Link
-              href="/equipment"
-              className="inline-flex items-center justify-center gap-2 rounded-sm bg-brass px-7 py-3.5 text-sm font-semibold uppercase tracking-wide text-ink transition-colors hover:bg-brass-light"
-            >
+            <Button href="/equipment">
               View Equipment
               <ArrowRight size={16} />
-            </Link>
-            <a
-              href={whatsappLink()}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-sm border border-ivory/25 px-7 py-3.5 text-sm font-semibold uppercase tracking-wide text-ivory transition-colors hover:border-brass hover:text-brass"
-            >
+            </Button>
+            <Button href={whatsappLink()} variant="secondary" external>
               <MessageCircle size={16} />
               WhatsApp Us
-            </a>
+            </Button>
           </div>
         </div>
 
@@ -252,20 +246,13 @@ export default function HomePage() {
             align="center"
           />
           <div className="mt-9 flex flex-col items-center justify-center gap-3.5 sm:flex-row">
-            <Link
-              href="/rate-card"
-              className="inline-flex items-center justify-center gap-2 rounded-sm bg-brass px-7 py-3.5 text-sm font-semibold uppercase tracking-wide text-ink transition-colors hover:bg-brass-light"
-            >
+            <Button href="/rate-card">
               View Rate Card
               <ArrowRight size={16} />
-            </Link>
-            <a
-              href={siteConfig.rateCardPdfUrl}
-              download
-              className="inline-flex items-center justify-center gap-2 rounded-sm border border-ivory/25 px-7 py-3.5 text-sm font-semibold uppercase tracking-wide text-ivory transition-colors hover:border-brass hover:text-brass"
-            >
+            </Button>
+            <Button href={siteConfig.rateCardPdfUrl} variant="secondary" download>
               Download PDF
-            </a>
+            </Button>
           </div>
         </div>
       </section>
@@ -323,21 +310,13 @@ export default function HomePage() {
             confirm availability and pricing within minutes.
           </p>
           <div className="mt-8 flex flex-col items-center justify-center gap-3.5 sm:flex-row">
-            <a
-              href={whatsappLink()}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-sm bg-brass px-7 py-3.5 text-sm font-semibold uppercase tracking-wide text-ink transition-colors hover:bg-brass-light"
-            >
+            <Button href={whatsappLink()} external>
               <MessageCircle size={16} />
               Chat on WhatsApp
-            </a>
-            <Link
-              href="/contact"
-              className="inline-flex items-center justify-center gap-2 rounded-sm border border-ivory/25 px-7 py-3.5 text-sm font-semibold uppercase tracking-wide text-ivory transition-colors hover:border-brass hover:text-brass"
-            >
+            </Button>
+            <Button href="/contact" variant="secondary">
               All Contact Details
-            </Link>
+            </Button>
           </div>
         </div>
       </section>

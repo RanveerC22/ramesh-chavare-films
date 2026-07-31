@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Instagram, Youtube, Facebook, Phone, Mail, MapPin } from "lucide-react";
 import { siteConfig, telLink } from "@/data/siteConfig";
 
@@ -9,9 +10,18 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-5 py-14 md:px-8">
         <div className="grid gap-10 md:grid-cols-4">
           <div>
-            <span className="font-display text-xl font-bold uppercase tracking-wide text-ivory">
-              Ramesh Chavare <span className="text-brass">Films</span>
-            </span>
+            <div className="flex items-center gap-2.5">
+              <Image
+                src="/images/logo-mark.png"
+                alt={`${siteConfig.shortName} logo`}
+                width={42}
+                height={24}
+                className="h-8 w-auto"
+              />
+              <span className="font-display text-xl font-bold uppercase tracking-wide text-ivory">
+                Ramesh Chavare <span className="text-brass">Films</span>
+              </span>
+            </div>
             <p className="mt-3 max-w-xs text-sm leading-relaxed text-ivory-muted">
               {siteConfig.tagline} Professional cinema cameras, lenses, and
               production gear for Kolhapur&apos;s filmmaking community.

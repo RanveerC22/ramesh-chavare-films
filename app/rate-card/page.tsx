@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import PageHeader from "@/components/PageHeader";
 import RateCardTable from "@/components/RateCardTable";
 
 export const metadata: Metadata = {
@@ -10,15 +11,11 @@ export const metadata: Metadata = {
 export default function RateCardPage() {
   return (
     <section className="mx-auto max-w-5xl px-5 pb-20 pt-32 md:px-8 md:pt-40">
-      <p className="eyebrow text-brass">Transparent Pricing</p>
-      <h1 className="mt-3 max-w-2xl font-display text-4xl font-extrabold uppercase leading-[0.98] tracking-wide text-ivory md:text-5xl">
-        Rate Card
-      </h1>
-      <p className="mt-4 max-w-xl text-[15px] leading-relaxed text-ivory-muted">
-        Search or filter by category to find daily pricing for any item in
-        our inventory. Download the full PDF to keep on hand for your
-        production budget.
-      </p>
+      <PageHeader
+        eyebrow="Transparent Pricing"
+        title="Rate Card"
+        description="Search or filter by category to find daily pricing for any item in our inventory. Download the full PDF to keep on hand for your production budget."
+      />
 
       <div className="mt-10">
         <RateCardTable />

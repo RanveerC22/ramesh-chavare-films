@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { Target, Eye, HeartHandshake, ShieldCheck, Wrench, Users } from "lucide-react";
+import PageHeader from "@/components/PageHeader";
 import SectionHeading from "@/components/SectionHeading";
 import { siteConfig } from "@/data/siteConfig";
 
@@ -23,14 +24,11 @@ export default function AboutPage() {
     <>
       <section className="relative overflow-hidden pb-16 pt-32 md:pt-40">
         <div className="mx-auto max-w-7xl px-5 md:px-8">
-          <p className="eyebrow text-brass">About Us</p>
-          <h1 className="mt-3 max-w-2xl font-display text-4xl font-extrabold uppercase leading-[0.98] tracking-wide text-ivory md:text-5xl">
-            {siteConfig.yearsOfExperience}+ Years Behind the Gear, Not the Camera
-          </h1>
-          <p className="mt-4 max-w-xl text-[15px] leading-relaxed text-ivory-muted">
-            We built our business on a simple idea — filmmakers do their best
-            work when they can trust their equipment completely.
-          </p>
+          <PageHeader
+            eyebrow="About Us"
+            title={`${siteConfig.yearsOfExperience}+ Years Behind the Gear, Not the Camera`}
+            description="We built our business on a simple idea — filmmakers do their best work when they can trust their equipment completely."
+          />
         </div>
       </section>
 
@@ -38,9 +36,10 @@ export default function AboutPage() {
       <section className="mx-auto grid max-w-7xl gap-12 px-5 pb-20 md:grid-cols-2 md:gap-16 md:px-8 md:pb-28">
         <div className="relative aspect-[4/5] overflow-hidden rounded-md">
           <Image
-            src="https://images.unsplash.com/photo-1533929736458-ca588d08c8be?q=80&w=1200&auto=format&fit=crop"
+            src="https://picsum.photos/seed/rcf-about-story/1200/1500"
             alt="Camera equipment being prepared for rental at Ramesh Chavare Films"
             fill
+            sizes="(max-width: 768px) 100vw, 50vw"
             className="object-cover"
           />
         </div>
@@ -90,7 +89,7 @@ export default function AboutPage() {
                 desc: "Honest pricing, tested equipment, and support that shows up — on time, every time, without exceptions.",
               },
             ].map(({ icon: Icon, title, desc }) => (
-              <div key={title} className="rounded-md border border-surface-border bg-ink p-7">
+              <div key={title} className="rounded-md border border-surface-border bg-ink p-7 transition-colors hover:border-brass/50">
                 <Icon className="text-brass" size={28} strokeWidth={1.5} />
                 <h3 className="mt-4 font-display text-xl font-bold uppercase tracking-wide text-ivory">
                   {title}
@@ -147,9 +146,9 @@ export default function AboutPage() {
                 desc: "Based in Kolhapur with same-day pickup and drop for local productions.",
               },
             ].map(({ icon: Icon, title, desc }) => (
-              <div key={title} className="rounded-md border border-surface-border bg-ink p-6">
-                <Icon className="text-brass" size={24} strokeWidth={1.5} />
-                <h3 className="mt-3 font-display text-lg font-bold uppercase tracking-wide text-ivory">
+              <div key={title} className="rounded-md border border-surface-border bg-ink p-6 transition-colors hover:border-brass/50">
+                <Icon className="text-brass" size={26} strokeWidth={1.5} />
+                <h3 className="mt-4 font-display text-lg font-bold uppercase tracking-wide text-ivory">
                   {title}
                 </h3>
                 <p className="mt-2 text-sm leading-relaxed text-ivory-muted">{desc}</p>

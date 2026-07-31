@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { Search, Printer, Download } from "lucide-react";
+import Button from "@/components/Button";
 import { allEquipment } from "@/data/equipment";
 import { siteConfig } from "@/data/siteConfig";
 
@@ -54,17 +55,13 @@ export default function RateCardTable() {
       </div>
 
       <div className="no-print mt-6 flex flex-col gap-3 sm:flex-row">
-        <a
-          href={siteConfig.rateCardPdfUrl}
-          download
-          className="inline-flex items-center justify-center gap-2 rounded-sm bg-brass px-5 py-2.5 text-sm font-semibold text-ink transition-colors hover:bg-brass-light"
-        >
+        <Button href={siteConfig.rateCardPdfUrl} size="sm" download>
           <Download size={15} />
           Download PDF
-        </a>
+        </Button>
         <button
           onClick={() => window.print()}
-          className="inline-flex items-center justify-center gap-2 rounded-sm border border-surface-border px-5 py-2.5 text-sm font-semibold text-ivory transition-colors hover:border-brass hover:text-brass"
+          className="inline-flex items-center justify-center gap-2 rounded-sm border border-surface-border px-5 py-2.5 text-sm font-semibold uppercase tracking-wide text-ivory transition-colors hover:border-brass hover:text-brass"
         >
           <Printer size={15} />
           Print This Page

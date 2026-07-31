@@ -8,6 +8,7 @@ import {
   Instagram,
   Facebook,
 } from "lucide-react";
+import PageHeader from "@/components/PageHeader";
 import { siteConfig, telLink, whatsappLink } from "@/data/siteConfig";
 
 export const metadata: Metadata = {
@@ -21,14 +22,11 @@ export default function ContactPage() {
 
   return (
     <section className="mx-auto max-w-7xl px-5 pb-20 pt-32 md:px-8 md:pt-40">
-      <p className="eyebrow text-brass">Get In Touch</p>
-      <h1 className="mt-3 max-w-2xl font-display text-4xl font-extrabold uppercase leading-[0.98] tracking-wide text-ivory md:text-5xl">
-        Contact
-      </h1>
-      <p className="mt-4 max-w-xl text-[15px] leading-relaxed text-ivory-muted">
-        The fastest way to check availability is WhatsApp. For everything
-        else, reach us below.
-      </p>
+      <PageHeader
+        eyebrow="Get In Touch"
+        title="Contact"
+        description="The fastest way to check availability is WhatsApp. For everything else, reach us below."
+      />
 
       <div className="mt-14 grid gap-10 lg:grid-cols-5 lg:gap-14">
         {/* ── Contact details ─────────────────────────────── */}
