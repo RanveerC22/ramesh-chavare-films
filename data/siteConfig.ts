@@ -32,8 +32,8 @@ export const siteConfig = {
       country: "India",
     },
     mapEmbedUrl:
-      "https://www.google.com/maps?q=Kolhapur,Maharashtra&output=embed",
-    mapLinkUrl: "https://maps.google.com/?q=Kolhapur,Maharashtra",
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3821.962457222323!2d74.210717574777!3d16.678762022833045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc1ab15987c13e1%3A0x447b797c81fe8632!2sRamesh%20Chavare%20Films%20%26%20Camera%20Rentals!5e0!3m2!1sen!2sin!4v1785521521909!5m2!1sen!2sin%22",
+    mapLinkUrl: "https://maps.app.goo.gl/uQpEKAZ8dfRW3c3p7",
     hours: [
       { day: "Monday – Saturday", time: "9:30 AM – 9:30 PM" },
       { day: "Sunday", time: "10:00 AM – 2:00 PM (Pickup/Drop only)" },
