@@ -66,19 +66,19 @@ export const galleryImages: GalleryImage[] = [
     category: "Cast & Crew",
   },
   {
-    id: "g9",
+    id: "g10",
     src: "/images/gallery/cnc/cnc-3.jpg",
     alt: "Subodh sir inspecting cameras",
     category: "Cast & Crew",
   },
   {
-    id: "g9",
+    id: "g11",
     src: "/images/gallery/cnc/cnc-4.jpg",
     alt: "Initial days of shoot",
     category: "Cast & Crew",
   },
   {
-    id: "g9",
+    id: "g12",
     src: "/images/gallery/cnc/cnc-5.jpg",
     alt: "With Siddheshwar Zadbuke sir",
     category: "Cast & Crew",
