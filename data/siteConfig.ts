@@ -11,10 +11,10 @@ export const siteConfig = {
   tagline: "Kolhapur's Most Trusted Film Gear Partner.",
   description:
     "Professional cinema camera, lens, and production equipment rentals in Kolhapur, Maharashtra. Trusted by wedding cinematographers, filmmakers, and content creators for well-maintained gear and dependable support.",
-  url: "https://rameshchavarefilms.com",
+  url: "https://ramesh-chavare-films.vercel.app/",
 
-  founded: 2014,
-  yearsOfExperience: new Date().getFullYear() - 2014,
+  founded: 2024,
+  yearsOfExperience: new Date().getFullYear() - 2024,
 
   contact: {
     phonePrimary: "9763978008",
@@ -47,7 +47,7 @@ export const siteConfig = {
   },
 
   whatsappDefaultMessage:
-    "Hi Ramesh Chavare Films, I'd like to enquire more about some equipment rentals.",
+    "Hi Ramesh Chavare Films, I'd like to enquire more about some equipments and their rentals.",
 
   rateCardPdfUrl: "/rate-card.pdf",
 };

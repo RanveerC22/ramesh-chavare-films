@@ -8,14 +8,14 @@ import { siteConfig } from "@/data/siteConfig";
 export const metadata: Metadata = {
   title: "About Us — Our Story & Commitment",
   description:
-    "Learn about Ramesh Chavare Films & Camera Rentals — Kolhapur's trusted film equipment rental partner since 2014, and the mission behind our gear and service.",
+    "Learn about Ramesh Chavare Films & Camera Rentals — Kolhapur's trusted film equipment rental partner since 2024, and the mission behind our gear and service.",
 };
 
 const milestones = [
-  { year: "2014", label: "Founded in Kolhapur with a small kit of DSLR bodies and prime lenses." },
-  { year: "2017", label: "Expanded into cinema camera bodies to serve wedding cinematographers." },
-  { year: "2020", label: "Added a full lighting and audio inventory for commercial productions." },
-  { year: "2023", label: "Introduced flagship cinema bodies and cinema lens sets for feature work." },
+  { year: "2024", label: "Founded in Kolhapur with a small kit of camera bodies and prime lenses." },
+  { year: "2024", label: "Added our first cinema camera body after early demand from wedding cinematographers." },
+  { year: "2025", label: "Expanded into cinema lens sets and professional audio equipment." },
+  { year: "2025", label: "Brought in flagship cinema bodies and stabilisers for commercial productions." },
   { year: "Today", label: `Supporting ${siteConfig.yearsOfExperience}+ years of productions across Maharashtra.` },
 ];
 
@@ -36,8 +36,8 @@ export default function AboutPage() {
       <section className="mx-auto grid max-w-7xl gap-12 px-5 pb-20 md:grid-cols-2 md:gap-16 md:px-8 md:pb-28">
         <div className="relative aspect-[4/5] overflow-hidden rounded-md">
           <Image
-            src="https://picsum.photos/seed/rcf-about-story/1200/1500"
-            alt="Camera equipment being prepared for rental at Ramesh Chavare Films"
+            src="/images/about-story.jpg"
+            alt="Founder reviewing footage on a Sony FX9 cinema camera"
             fill
             sizes="(max-width: 768px) 100vw, 50vw"
             className="object-cover"
@@ -49,7 +49,8 @@ export default function AboutPage() {
             Started by a Filmmaker, Built for Filmmakers
           </h2>
           <p className="mt-5 text-[15px] leading-relaxed text-ivory-muted">
-            Ramesh Chavare Films & Camera Rentals began in {siteConfig.founded}{" "}
+            Ramesh Chavare Films & Camera Rentals was founded by Shri. Ramesh Chavare
+            in {siteConfig.founded}{" "}
             out of a frustration every filmmaker in Kolhapur understood well —
             professional-grade equipment was hard to find locally, and harder
             still to trust. What started as a small personal kit shared among
