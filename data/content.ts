@@ -7,7 +7,7 @@ export type GalleryImage = {
   id: string;
   src: string;
   alt: string;
-  category: "Behind the Scenes" | "Commercial Shoots" | "Set Shoots" | "Weddings";
+  category: "Behind the Scenes" | "Cast & Crew";
 };
 
 export const galleryImages: GalleryImage[] = [
@@ -15,13 +15,13 @@ export const galleryImages: GalleryImage[] = [
     id: "g1",
     src: "https://picsum.photos/seed/rcf-gallery-g1/900/1200",
     alt: "Cinematographer operating a gimbal on a wedding shoot",
-    category: "Weddings",
+    category: "Behind the Scenes",
   },
   {
     id: "g2",
     src: "https://picsum.photos/seed/rcf-gallery-g2/1200/900",
     alt: "Crew setting up lighting on a commercial set",
-    category: "Commercial Shoots",
+    category: "Behind the Scenes",
   },
   {
     id: "g3",
@@ -33,7 +33,7 @@ export const galleryImages: GalleryImage[] = [
     id: "g4",
     src: "https://picsum.photos/seed/rcf-gallery-g4/900/1300",
     alt: "Director reviewing a monitor on set",
-    category: "Set Shoots",
+    category: "Behind the Scenes",
   },
   {
     id: "g5",
@@ -45,19 +45,19 @@ export const galleryImages: GalleryImage[] = [
     id: "g6",
     src: "https://picsum.photos/seed/rcf-gallery-g6/950/1250",
     alt: "Wedding videography coverage under string lights",
-    category: "Weddings",
+    category: "Cast & Crew",
   },
   {
     id: "g7",
     src: "https://picsum.photos/seed/rcf-gallery-g7/1200/950",
     alt: "Product commercial shoot with softbox lighting",
-    category: "Commercial Shoots",
+    category: "Cast & Crew",
   },
   {
     id: "g8",
     src: "https://picsum.photos/seed/rcf-gallery-g8/1000/1000",
     alt: "Full crew and gear staged before a shoot",
-    category: "Set Shoots",
+    category: "Cast & Crew",
   },
   {
     id: "g9",

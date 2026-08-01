@@ -7,10 +7,8 @@ import { galleryImages, type GalleryImage } from "@/data/content";
 
 const categories = [
   "All",
-  "Weddings",
-  "Commercial Shoots",
-  "Set Shoots",
   "Behind the Scenes",
+  "Cast & Crew",
 ] as const;
 
 export default function GalleryGrid() {
