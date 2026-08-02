@@ -198,37 +198,6 @@ export const accessories: Accessory[] = [
     featured: true,
   },
   {
-    slug: "aputure-600d-pro",
-    name: "Aputure 600D Pro",
-    category: "Lighting",
-    image:
-      "https://picsum.photos/seed/rcf-aputure-600d-pro/1200/900",
-    description:
-      "Powerful daylight-balanced LED fixture for key lighting on location or in-studio shoots.",
-    dailyRate: 2200,
-    featured: true,
-  },
-  {
-    slug: "aputure-300x-set",
-    name: "Aputure 300X Two-Light Set",
-    category: "Lighting",
-    image:
-      "https://picsum.photos/seed/rcf-aputure-300x-set/1200/900",
-    description:
-      "Two matched bi-colour LEDs with softboxes — a complete two-point lighting kit for interviews and portraits.",
-    dailyRate: 3000,
-  },
-  {
-    slug: "sennheiser-wireless-lav",
-    name: "Sennheiser EW 112P G4 Wireless Lav",
-    category: "Audio",
-    image:
-      "https://picsum.photos/seed/rcf-sennheiser-wireless-lav/1200/900",
-    description:
-      "Reliable wireless lavalier system for clean dialogue capture during interviews and event coverage.",
-    dailyRate: 1200,
-  },
-  {
     slug: "rode-ntg5",
     name: "Rode NTG5 Shotgun Mic Kit",
     category: "Audio",

@@ -169,7 +169,7 @@ export default function HomePage() {
             {
               icon: Package,
               title: "Accessories",
-              desc: `${accessories.length}+ gimbals, lighting, audio & support gear`,
+              desc: `${accessories.length}+ gimbals, audio, monitoring & support gear`,
               href: "/equipment#accessories",
             },
           ].map(({ icon: Icon, title, desc, href }) => (
