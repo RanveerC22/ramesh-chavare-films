@@ -167,7 +167,7 @@ export const lenses: Lens[] = [
     mount: "EF",
     focalLength: "50 / 85 / 24-70mm",
     image:
-      "/images/equipment/lenses/Sony_lense.jpg",
+      "/images/equipment/lenses/Sony_Lense.jpg",
     description:
       "A versatilee trio covering everything from wide scenes to flattering portraits — the perfect everyday kit for weddings, commercials, interviews, and documentary filmmaking.",
     dailyRate: 2500,
