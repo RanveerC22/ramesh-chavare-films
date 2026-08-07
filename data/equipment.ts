@@ -169,7 +169,7 @@ export const lenses: Lens[] = [
     image:
       "/images/equipment/lenses/Sony_lense.jpg",
     description:
-      "A versatile trio covering everything from wide scenes to flattering portraits — the perfect everyday kit for weddings, commercials, interviews, and documentary filmmaking.",
+      "A versatilee trio covering everything from wide scenes to flattering portraits — the perfect everyday kit for weddings, commercials, interviews, and documentary filmmaking.",
     dailyRate: 2500,
   },
 ];
