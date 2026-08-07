@@ -116,61 +116,61 @@ export const cameras: Camera[] = [
 
 export const lenses: Lens[] = [
   {
-    slug: "zeiss-supreme-prime-set",
-    name: "Zeiss Supreme Prime Set (5 lenses)",
+    slug: "sigma-prime-set",
+    name: "Sigma Prime Set (5 lenses)",
     mount: "PL",
-    focalLength: "21 / 29 / 40 / 65 / 100mm",
+    focalLength: "20 / 24 / 35 / 50 / 85mm",
     image:
-      "https://picsum.photos/seed/rcf-zeiss-supreme-prime-set/1200/900",
+      "/images/equipment/lenses/Sigma_Prime.png",
     description:
-      "A full set of modern cinema primes with consistent colour rendering and a gentle, flattering falloff — a favourite for feature work.",
-    dailyRate: 12000,
+      "Five versatile focal lengths designed for creators who demand crisp detail and cinematic depth — from sweeping wides to intimate portraits.",
+    dailyRate: 6000,
     featured: true,
   },
   {
-    slug: "cooke-s4i-set",
-    name: "Cooke S4/i Prime Set (5 lenses)",
+    slug: "cp2-lense-set",
+    name: "CP2 Lense Set (5 lenses)",
     mount: "PL",
-    focalLength: "18 / 25 / 32 / 50 / 75mm",
+    focalLength: "15 / 25 / 35 / 50 / 85mm",
     image:
-      "https://picsum.photos/seed/rcf-cooke-s4i-set/1200/900",
+      "/images/equipment/lenses/CP2.jpg",
     description:
-      "The legendary 'Cooke Look' — warm skin tones and smooth bokeh, prized by wedding and portrait cinematographers.",
-    dailyRate: 10000,
+      "A complete set of ZEISS CP2 cinema lenses delivering consistent colour, smooth focus control, and a timeless cinematic look across every focal length",
+    dailyRate: 4000,
     featured: true,
   },
   {
-    slug: "sigma-art-prime-set",
-    name: "Sigma Art Prime Set (4 lenses)",
-    mount: "EF / E",
-    focalLength: "24 / 35 / 50 / 85mm",
-    image:
-      "https://picsum.photos/seed/rcf-sigma-art-prime-set/1200/900",
-    description:
-      "Sharp, contrasty, and budget-friendly — an excellent option for content creators and independent filmmakers.",
-    dailyRate: 3500,
-  },
-  {
-    slug: "canon-cn-e-zoom",
-    name: "Canon CN-E 30-105mm T2.8",
+    slug: "hr-zoom",
+    name: "Angenieux HR Zoom 25-250mm T3.5",
     mount: "EF / PL",
-    focalLength: "30–105mm",
+    focalLength: "25-250mm",
     image:
-      "https://picsum.photos/seed/rcf-canon-cn-e-zoom/1200/900",
+      "/images/equipment/lenses/Alura_Zoom.jpg",
     description:
-      "A versatile cinema zoom that keeps focus consistent through the range — ideal for run-and-gun documentary coverage.",
-    dailyRate: 3000,
+      "An iconic high-ratio cinema zoom that moves effortlessly from wide shots to tight close-ups — perfect for productions where changing lenses isn't an option.",
+    dailyRate: 2500,
   },
   {
-    slug: "sirui-anamorphic-set",
-    name: "Sirui 1.6x Anamorphic Set",
-    mount: "E / RF",
-    focalLength: "24 / 35 / 50 / 75mm",
+    slug: "gmaster-kit",
+    name: "G Master Lense Kit",
+    mount: "EF",
+    focalLength: "50, 85, 24-70, 70-200mm",
     image:
-      "https://picsum.photos/seed/rcf-sirui-anamorphic-set/1200/900",
+      "/images/equipment/lenses/Gmaster.png",
     description:
-      "Signature oval bokeh and horizontal flares for productions chasing a distinct widescreen cinematic look.",
-    dailyRate: 4500,
+      "An industry-leading lens kit offering unmatched image quality, creamy background separation, and exceptional performance for both photography and filmmaking.",
+    dailyRate: 6000,
+  },
+  {
+    slug: "sony-autofocus",
+    name: "Sony Autofocus Lens Kit",
+    mount: "EF",
+    focalLength: "50 / 85 / 24-70mm",
+    image:
+      "/images/equipment/lenses/Sony_lense.jpg",
+    description:
+      "A versatile trio covering everything from wide scenes to flattering portraits — the perfect everyday kit for weddings, commercials, interviews, and documentary filmmaking.",
+    dailyRate: 2500,
   },
 ];
 
