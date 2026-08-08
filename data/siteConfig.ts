@@ -17,11 +17,11 @@ export const siteConfig = {
   yearsOfExperience: new Date().getFullYear() - 2024,
 
   contact: {
-    phonePrimary: "9763978008",
-    phonePrimaryRaw: "9763978008",
-    phoneSecondary: "9175333400",
-    phoneSecondaryRaw: "9175333400",
-    whatsappNumber: "9763978008",
+    phonePrimary: "+91 9763978008",
+    phonePrimaryRaw: "919763978008",
+    phoneSecondary: "+91 9175333400",
+    phoneSecondaryRaw: "919175333400",
+    whatsappNumber: "919763978008",
     email: "kolhapurfilmcamerarentals@gmail.com",
     address: {
       line1: "A/22/7-8, Rajlaxmi Nagar, Devkar Panand",
