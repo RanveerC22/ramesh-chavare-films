@@ -239,7 +239,22 @@ export const accessories: Accessory[] = [
   },
 ];
 
-// Convenience export used by the Rate Card page.
+// Items that appear ONLY on the Rate Card — not shown as an Equipment
+// card. Use this for small add-ons, consumables, or charges that don't
+// need a photo/description (extra batteries, memory cards, delivery
+// charges, extended-hours pricing, etc).
+export type RateCardOnlyItem = {
+  slug: string;
+  name: string;
+  category: string;
+  dailyRate: number;
+};
+
+export const rateCardOnlyItems: RateCardOnlyItem[] = [
+  { slug: "extra-battery", name: "Extra Battery Pack", category: "Add-ons", dailyRate: 300 },
+  { slug: "memory-card-128gb", name: "128GB CFexpress Card", category: "Add-ons", dailyRate: 500 },
+];
+
 export const allEquipment = [
   ...cameras.map((c) => ({
     slug: c.slug,
@@ -259,4 +274,5 @@ export const allEquipment = [
     category: a.category as string,
     dailyRate: a.dailyRate,
   })),
+  ...rateCardOnlyItems,
 ];
