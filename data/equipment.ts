@@ -43,74 +43,52 @@ export type Accessory = {
 };
 
 export const cameras: Camera[] = [
-  {
-    slug: "red-v-raptor-xl",
-    brand: "RED",
-    model: "V-Raptor XL 8K VV",
-    image:
-      "https://picsum.photos/seed/rcf-red-v-raptor-xl/1200/900",
-    description:
-      "Flagship full-frame cinema camera for high-end wedding features, commercials, and narrative work. Exceptional dynamic range and modularity.",
-    specs: ["8K VV Sensor", "17+ Stops DR", "Up to 120fps in 8K", "RF Mount"],
-    dailyRate: 18000,
-    featured: true,
-  },
-  {
-    slug: "arri-alexa-mini-lf",
-    brand: "ARRI",
-    model: "Alexa Mini LF",
-    image:
-      "https://picsum.photos/seed/rcf-arri-alexa-mini-lf/1200/900",
-    description:
-      "Industry-standard large-format cinema camera known for its signature ARRI colour science and reliability on demanding sets.",
-    specs: ["LF Sensor", "14+ Stops DR", "ARRI LPL Mount", "4.5K ProRes"],
-    dailyRate: 22000,
-    featured: true,
-  },
-  {
-    slug: "sony-fx6",
+   {
+    slug: "sony-venice-2",
     brand: "Sony",
-    model: "Cinema Line FX6",
+    model: "VENICE 2 8.6K",
     image:
-      "https://picsum.photos/seed/rcf-sony-fx6/1200/900",
+      "/images/equipment/cameras/sony_venis.png",
     description:
-      "Compact full-frame cinema camera ideal for run-and-gun wedding coverage and documentary-style shoots with dual base ISO.",
-    specs: ["Full-Frame 4K", "Dual Base ISO", "E-Mount", "120fps 4K"],
-    dailyRate: 6500,
+      "Flagship full-frame cinema camera designed for high-end films and premium productions with exceptional dynamic range.",
+    specs: ["8.6K Full-Frame Sensor", "16 Stops Latitude", "Dual Base ISO 800/3200", "PL / E-Mount"],
+    dailyRate: 15000,
+    featured: true,
+  },
+  {
+    slug: "red-helium-8k",
+    brand: "RED",
+    model: "HELIUM 8K",
+    image:
+      "/images/equipment/cameras/red_helium.jpg",
+    description:
+      "High-end 8K cinema camera delivering exceptional detail, dynamic range, and cinematic image quality for professional productions.",
+    specs: ["8K HELIUM Sensor", "Up to 60fps in 8K", "REDCODE RAW", "16.5+ Stops Dynamic Range",],
+    dailyRate: 7000,
     featured: true,
   },
   {
     slug: "sony-fx3",
     brand: "Sony",
-    model: "Cinema Line FX3",
+    model: "Cinema Line FX3 4K",
     image:
-      "https://picsum.photos/seed/rcf-sony-fx3/1200/900",
+      "/images/equipment/cameras/sony_fx3.jpg",
     description:
-      "Compact and lightweight, built for gimbal and handheld work where size and low-light performance matter most.",
-    specs: ["Full-Frame 4K", "S-Cinetone", "E-Mount", "Built-in Fan"],
-    dailyRate: 5000,
+      "Compact full-frame cinema camera offering excellent low-light performance and versatile autofocus for professional video production.",
+    specs: ["Full-Frame 4K", "15+ Stops Dynamic Range", "E-Mount", "120fps 4K"],
+    dailyRate: 3000,
+    featured: true,
   },
   {
-    slug: "blackmagic-ursa-12k",
-    brand: "Blackmagic Design",
-    model: "URSA Mini Pro 12K",
+    slug: "sony-fx7",
+    brand: "Sony",
+    model: "Cinema Line FS7 4K",
     image:
-      "https://picsum.photos/seed/rcf-blackmagic-ursa-12k/1200/900",
+      "/images/equipment/cameras/sony_fs7.jpg",
     description:
-      "Extreme resolution for commercial and VFX-heavy productions requiring maximum reframing flexibility in post.",
-    specs: ["12K Super 35", "14 Stops DR", "PL/EF Mount", "Blackmagic RAW"],
-    dailyRate: 9000,
-  },
-  {
-    slug: "canon-c300-mk3",
-    brand: "Canon",
-    model: "EOS C300 Mark III",
-    image:
-      "https://picsum.photos/seed/rcf-canon-c300-mk3/1200/900",
-    description:
-      "Dependable Super 35 workhorse with a proven autofocus system, well suited to interviews and event coverage.",
-    specs: ["Super 35 DGO", "16 Stops DR", "EF/PL Mount", "Dual Pixel AF"],
-    dailyRate: 7000,
+      "Professional Super 35 cinema camera known for reliable performance, excellent image quality for films, documentaries, and commercials.",
+    specs: ["4K Super 35 Sensor", "Up to 180fps in Full HD", "E-Mount"],
+    dailyRate: 2000,
   },
 ];
 
