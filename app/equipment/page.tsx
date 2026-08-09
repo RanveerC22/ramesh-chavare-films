@@ -97,8 +97,8 @@ export default function EquipmentPage() {
       <section id="accessories" className="scroll-mt-32 mx-auto max-w-7xl px-5 py-16 md:px-8 md:py-20">
         <SectionHeading
           eyebrow={`Accessories · ${accessories.length} Items`}
-          title="Support, Stabilisers & Audio"
-          description="Everything that surrounds the camera — stabilisers, audio gear, monitors, and support systems."
+          title="Cinema Accessories"
+          description="Stabilizers, monitors, lense controls, wireless video, filters, and every other essential that surrounds the camera on set."
         />
         <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {accessories.map((acc) => (

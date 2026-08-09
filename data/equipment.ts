@@ -178,7 +178,7 @@ export const accessories: Accessory[] = [
   {
     slug: "rode-ntg5",
     name: "Rode NTG5 Shotgun Mic Kit",
-    category: "Audio",
+    category: "Monitors",
     image:
       "https://picsum.photos/seed/rcf-rode-ntg5/1200/900",
     description:
@@ -196,24 +196,44 @@ export const accessories: Accessory[] = [
     dailyRate: 1500,
   },
   {
-    slug: "manfrotto-tripod-kit",
-    name: "Manfrotto 504X Fluid Head Tripod",
-    category: "Support",
+    slug: "tilta-necleus",
+    name: "Tilta Nucleus (Wireless Follow Focus)",
+    category: "Lens Control",
     image:
-      "https://picsum.photos/seed/rcf-manfrotto-tripod-kit/1200/900",
+      "/images/equipment/accessories/cmotion.jpg",
     description:
-      "Professional fluid-head tripod system delivering smooth pans and reliable support for cinema bodies.",
-    dailyRate: 800,
+      "Compact wireless focus control system designed for smooth, accurate lens pulls and professional cinema setups.",
+    dailyRate: 1000,
   },
   {
-    slug: "slider-motorized",
-    name: "Motorised Camera Slider (100cm)",
+    slug: "hollyland-wireless",
+    name: "Hollyland Wireless Video",
+    category: "Wireless Video",
+    image:
+      "/images/equipment/accessories/hollyland.jpg",
+    description:
+      "Reliable wireless video transmission system for real-time monitoring and professional production workflows.",
+    dailyRate: 1000,
+  },
+  {
+    slug: "nd-filters",
+    name: "Atomos Ninja V Monitor-Recorder",
+    category: "Filters",
+    image:
+      "https://picsum.photos/seed/rcf-atomos-ninja-v/1200/900",
+    description:
+      "5-inch HDR monitor and ProRes RAW recorder for accurate on-set exposure and focus checking.",
+    dailyRate: 1500,
+  },
+  {
+    slug: "patla-setup",
+    name: "Patla Setup (Alti-Palti)",
     category: "Support",
     image:
-      "https://picsum.photos/seed/rcf-slider-motorized/1200/900",
+      "/images/equipment/accessories/patla_set.jpg",
     description:
-      "Programmable motorised slider for smooth, repeatable camera moves in product and interview setups.",
-    dailyRate: 1600,
+      "Versatile wooden platform set for supporting cameras, monitors, laptops, and other production equipment at different heights.",
+    dailyRate: 500,
   },
 ];
 
