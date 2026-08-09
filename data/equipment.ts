@@ -113,7 +113,7 @@ export const lenses: Lens[] = [
     image:
       "/images/equipment/lenses/CP2.jpg",
     description:
-      "A complete set of ZEISS CP2 cinema lenses delivering consistent colour, smooth focus control, and a timeless cinematic look across every focal length",
+      "A complete set of ZEISS CP2 cinema lenses delivering consistent colour, smooth focus control, and a timeless cinematic look for every focal length",
     dailyRate: 4000,
     featured: true,
   },
@@ -125,7 +125,7 @@ export const lenses: Lens[] = [
     image:
       "/images/equipment/lenses/Alura_Zoom.jpg",
     description:
-      "An iconic high-ratio cinema zoom that moves effortlessly from wide shots to tight close-ups — perfect for productions where changing lenses isn't an option.",
+      "An iconic high-ratio zoom that moves effortlessly from wide shots to tight close-ups — perfect for productions where changing lenses isn't an option.",
     dailyRate: 2500,
   },
   {
