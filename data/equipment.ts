@@ -154,46 +154,37 @@ export const lenses: Lens[] = [
 
 export const accessories: Accessory[] = [
   {
-    slug: "dji-ronin-4d",
-    name: "DJI Ronin 4D",
+    slug: "steadicam-m2",
+    name: "Steadicam M-2 Along With Operator",
     category: "Stabilizers",
     image:
       "https://picsum.photos/seed/rcf-dji-ronin-4d/1200/900",
     description:
-      "Integrated gimbal camera system with built-in LiDAR focusing — smooth, cable-free stabilised movement.",
-    dailyRate: 5500,
+      "Camera stabilization system with an experienced operator for smooth, controlled movement and fluid tracking shots.",
+    dailyRate: 20000,
     featured: true,
   },
   {
-    slug: "dji-rs3-pro",
-    name: "DJI RS 3 Pro Gimbal",
+    slug: "dji-rs4",
+    name: "DJI RS 4 Gimbal",
     category: "Stabilizers",
     image:
-      "https://picsum.photos/seed/rcf-dji-rs3-pro/1200/900",
+      "/images/equipment/accessories/gimbal_rs4.jpg",
     description:
-      "Compact 3-axis gimbal supporting most mirrorless and cinema camera bodies for handheld cinematic motion.",
-    dailyRate: 1800,
+      "Professional camera gimbal delivering smooth, stable footage with fast balancing and precise movement control.",
+    dailyRate: 1000,
     featured: true,
   },
   {
-    slug: "rode-ntg5",
-    name: "Rode NTG5 Shotgun Mic Kit",
-    category: "Monitors",
+    slug: "nd-filters",
+    name: "TIFFIN ND 3, 6, 9, 1.2 IR",
+    category: "Filters",
     image:
-      "https://picsum.photos/seed/rcf-rode-ntg5/1200/900",
+      "/images/equipment/accessories/filters.jpg",
     description:
-      "Broadcast-grade shotgun microphone with boom pole and blimp for on-camera and boom-operated audio.",
-    dailyRate: 900,
-  },
-  {
-    slug: "atomos-ninja-v",
-    name: "Atomos Ninja V Monitor-Recorder",
-    category: "Monitors",
-    image:
-      "https://picsum.photos/seed/rcf-atomos-ninja-v/1200/900",
-    description:
-      "5-inch HDR monitor and ProRes RAW recorder for accurate on-set exposure and focus checking.",
-    dailyRate: 1500,
+      "Professional cinema ND filters for precise exposure control while maintaining natural color and image quality.",
+    dailyRate: 1000,
+    featured: true,
   },
   {
     slug: "tilta-necleus",
@@ -216,14 +207,34 @@ export const accessories: Accessory[] = [
     dailyRate: 1000,
   },
   {
-    slug: "nd-filters",
-    name: "Atomos Ninja V Monitor-Recorder",
-    category: "Filters",
+    slug: "atmos-shougun",
+    name: "Atomos Shogun",
+    category: "Monitors",
     image:
-      "https://picsum.photos/seed/rcf-atomos-ninja-v/1200/900",
+      "/images/equipment/accessories/shogun.jpg",
     description:
-      "5-inch HDR monitor and ProRes RAW recorder for accurate on-set exposure and focus checking.",
-    dailyRate: 1500,
+      "Professional HDR monitor and recorder offering high-quality monitoring, recording, and playback for cinema production.",
+    dailyRate: 1000,
+  },
+  {
+    slug: "panasonic-monitor",
+    name: "Panasonic 17-inch Director Monitor",
+    category: "Monitors",
+    image:
+      "/images/equipment/accessories/monitor.jpg",
+    description:
+      "Professional large-format monitor designed for directors and on-set viewing, providing clear and detailed image monitoring.",
+    dailyRate: 1000,
+  },
+  {
+    slug: "tripods-heads",
+    name: "Tripods Along With Heads",
+    category: "Support",
+    image:
+      "/images/equipment/accessories/tripod.jpg",
+    description:
+      "Stable camera support with smooth head movement for steady shots, framing, and controlled camera motion.",
+    dailyRate: 700,
   },
   {
     slug: "patla-setup",
