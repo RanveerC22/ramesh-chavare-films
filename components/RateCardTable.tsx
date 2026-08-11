@@ -111,9 +111,9 @@ export default function RateCardTable() {
 
       <p className="no-print mt-5 text-xs leading-relaxed text-ivory-dim">
         Rates shown are for standard daily rentals; weekly and production-block
-  pricing available on request. Security deposit required at pickup.
-  Don&apos;t see what you need? We stock individual accessories and
-  items beyond this list — message us on WhatsApp and we&apos;ll sort
+        pricing available on request. Security deposit required at pickup.
+        Don&apos;t see what you need? We stock individual accessories and
+        items beyond this list — message us on WhatsApp and we&apos;ll sort
       </p>
     </div>
   );
