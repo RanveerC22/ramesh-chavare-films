@@ -260,8 +260,11 @@ export type RateCardOnlyItem = {
 };
 
 export const rateCardOnlyItems: RateCardOnlyItem[] = [
-  { slug: "extra-battery", name: "Extra Battery Pack", category: "Add-ons", dailyRate: 300 },
-  { slug: "memory-card-128gb", name: "128GB CFexpress Card", category: "Add-ons", dailyRate: 500 },
+  { slug: "lilliput", name: "Lilliput", category: "Monitors", dailyRate: 1000 },
+  { slug: "nd", name: "Variable ND", category: "Filters", dailyRate: 200 },
+  { slug: "matte-box-6", name: "Matte Box - 6 x 6", category: "Add-ons", dailyRate: 700 },
+  { slug: "matte-box-4", name: "Matte Box - 4 x 4", category: "Add-ons", dailyRate: 500 },
+  { slug: "memory-card-120gb", name: "Prograde 120GB High Speed Card", category: "Add-ons", dailyRate: 500 },
 ];
 
 export const allEquipment = [
