@@ -96,34 +96,34 @@ export type Testimonial = {
 export const testimonials: Testimonial[] = [
   {
     id: "t1",
-    name: "Sagar Deshmukh",
-    role: "Wedding Cinematographer, Kolhapur",
+    name: "Milind Kothavale",
+    role: "Cinematographer, Kolhapur",
     quote:
-      "Their gear is always spotless and tested before pickup. On a wedding day there's no room for surprises, and Ramesh Chavare Films has never once let us down.",
+      "Overall, a very well-equipped service provider in Kolhapur. The equipment is well maintained, the service is reliable, and the overall experience is smooth and professional.",
     rating: 5,
   },
   {
     id: "t2",
-    name: "Priyanka Kulkarni",
-    role: "Founder, Frameworks Studio",
+    name: "Avadut Chavan",
+    role: "Founder, Avdhut Chavan Photo Films",
     quote:
-      "We rent our anamorphic sets from them for every commercial job. Honest pricing, flexible timing, and gear that performs exactly as promised.",
+      "Ramesh Chavare films is the only place to rent a camera. Here you get everything you need for a film. Whether it's Mauli Dada or the rest of the team, the whole team is doing a great job.",
     rating: 5,
   },
   {
     id: "t3",
-    name: "Ashutosh Patil",
-    role: "Freelance Videographer",
+    name: "Mukul Sharma",
+    role: "Videographer, Mumbai",
     quote:
-      "As a student I couldn't afford a cinema camera outright. Renting from them gave me access to gear I needed to actually grow — and they explained everything patiently.",
+      "Nice management and best experience for the company",
     rating: 5,
   },
   {
     id: "t4",
-    name: "Neha Bhosale",
-    role: "Production Manager, Panchganga Films",
+    name: "Sudarshan Vandakar",
+    role: "Cinematographer, Kolhapur",
     quote:
-      "Quick WhatsApp response, gear delivered on time, and a rate card that's transparent from day one. Exactly what a production house needs from a rental partner.",
+      "This is one of the most progressive rental house in Kolhapur, equipped with all the latest and high-quality gear. The team is extremely active, professional, and supportive, which makes every shoot smooth and enjoyable",
     rating: 5,
   },
 ];
