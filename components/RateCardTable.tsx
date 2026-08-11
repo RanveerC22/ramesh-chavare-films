@@ -110,10 +110,10 @@ export default function RateCardTable() {
       </div>
 
       <p className="no-print mt-5 text-xs leading-relaxed text-ivory-dim">
-        Rates are indicative for standard daily rentals and subject to
-        availability. Weekend, weekly, and production-block pricing is
-        available on request — message us on WhatsApp for a custom quote.
-        Security deposit required at pickup.
+        Rates shown are for standard daily rentals; weekly and production-block
+  pricing available on request. Security deposit required at pickup.
+  Don&apos;t see what you need? We stock individual accessories and
+  items beyond this list — message us on WhatsApp and we&apos;ll sort
       </p>
     </div>
   );
