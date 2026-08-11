@@ -138,31 +138,24 @@ export type Production = {
 export const featuredProductions: Production[] = [
   {
     id: "p1",
-    title: "Sanchari — Wedding Film",
-    type: "Wedding Cinematography",
+    title: "Psycho Ranga",
+    type: "Movie",
     image:
-      "https://picsum.photos/seed/rcf-production-p1/1200/1600",
+      "/images/home/production/psyco_ranga.jpg",
   },
   {
     id: "p2",
-    title: "Kolhapuri Chappal — Brand Film",
-    type: "Commercial",
+    title: "Pralay",
+    type: "Movie",
     image:
-      "https://picsum.photos/seed/rcf-production-p2/1200/1600",
+      "/images/home/production/pralay.jpg",
   },
   {
     id: "p3",
-    title: "Panchganga — Short Documentary",
-    type: "Documentary",
-    image:
-      "https://picsum.photos/seed/rcf-production-p3/1200/1600",
-  },
-  {
-    id: "p4",
-    title: "Rangoli Studios — Music Video",
+    title: "Mard Maratha — Music Video",
     type: "Music Video",
     image:
-      "https://picsum.photos/seed/rcf-production-p4/1200/1600",
+      "/images/home/production/mard_maratha.jpg",
   },
 ];
 

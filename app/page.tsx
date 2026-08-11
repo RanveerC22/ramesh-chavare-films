@@ -197,7 +197,7 @@ export default function HomePage() {
           <SectionHeading
             eyebrow="Our Work"
             title="Latest Productions Shot on Our Gear"
-            description="A selection of weddings, commercials, and documentaries our rental clients have delivered using equipment from our inventory."
+            description="A selection of movies, short films and music videos our rental clients have delivered using equipment from our inventory."
           />
           <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {featuredProductions.map((p) => (
