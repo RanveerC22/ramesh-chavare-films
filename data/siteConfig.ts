@@ -42,6 +42,7 @@ export const siteConfig = {
 
   social: {
     instagram: "https://instagram.com/rameshc_filmcamerarentals",
+    instagramHandle: "rameshc_filmcamerarentals",
     youtube: "https://youtube.com/@rameshchavarefilms",
     facebook: "https://facebook.com/share/1CoqyXwjBj/",
   },

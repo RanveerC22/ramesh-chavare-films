@@ -267,7 +267,7 @@ export default function HomePage() {
             rel="noopener noreferrer"
             className="eyebrow flex items-center gap-2 text-brass hover:text-brass-light"
           >
-            <Instagram size={14} /> @{siteConfig.shortName.replace(/\s+/g, "")}
+            <Instagram size={14} /> @{siteConfig.social.instagramHandle}
           </a>
         </div>
         <div className="mt-10 grid grid-cols-3 gap-2.5 md:grid-cols-6">
