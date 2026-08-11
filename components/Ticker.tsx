@@ -1,6 +1,8 @@
+import { siteConfig } from "@/data/siteConfig";
+
 const items = [
   "KOLHAPUR, MAHARASHTRA",
-  "EST. 2014",
+  `EST. ${siteConfig.founded}`,
   "500+ SHOOTS SUPPORTED",
   "SAME-DAY PICKUP",
   "GEAR TESTED BEFORE EVERY RENTAL",
