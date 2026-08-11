@@ -165,10 +165,10 @@ export type InstagramPost = {
 };
 
 export const instagramPreview: InstagramPost[] = [
-  { id: "ig1", image: "https://picsum.photos/seed/rcf-instagram-ig1/600/600" },
-  { id: "ig2", image: "https://picsum.photos/seed/rcf-instagram-ig2/600/600" },
-  { id: "ig3", image: "https://picsum.photos/seed/rcf-instagram-ig3/600/600" },
-  { id: "ig4", image: "https://picsum.photos/seed/rcf-instagram-ig4/600/600" },
-  { id: "ig5", image: "https://picsum.photos/seed/rcf-instagram-ig5/600/600" },
-  { id: "ig6", image: "https://picsum.photos/seed/rcf-instagram-ig6/600/600" },
+  { id: "ig1", image: "/images/home/instagram/fx3.jpg" },
+  { id: "ig2", image: "/images/home/instagram/trimurti_2.jpg" },
+  { id: "ig3", image: "/images/home/instagram/mard_song.jpg" },
+  { id: "ig4", image: "/images/home/instagram/rankala.jpg" },
+  { id: "ig5", image: "/images/home/instagram/milind_k.jpg" },
+  { id: "ig6", image: "/images/home/instagram/malhar_j.jpg" },
 ];
