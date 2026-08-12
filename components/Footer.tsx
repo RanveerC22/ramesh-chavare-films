@@ -72,8 +72,8 @@ export default function Footer() {
             <h3 className="eyebrow text-brass">Categories</h3>
             <ul className="mt-4 space-y-2.5 text-sm text-ivory-muted">
               <li><Link href="/equipment#cameras" className="hover:text-ivory">Cinema Cameras</Link></li>
-              <li><Link href="/equipment#lenses" className="hover:text-ivory">Lenses</Link></li>
-              <li><Link href="/equipment#accessories" className="hover:text-ivory">Accessories</Link></li>
+              <li><Link href="/equipment#lenses" className="hover:text-ivory">Cinema Lenses</Link></li>
+              <li><Link href="/equipment#accessories" className="hover:text-ivory">Cinema Accessories</Link></li>
               <li><Link href="/rate-card" className="hover:text-ivory">Download Rate Card</Link></li>
             </ul>
           </div>
@@ -105,7 +105,7 @@ export default function Footer() {
 
         <div className="mt-12 flex flex-col items-center justify-between gap-3 border-t border-surface-border pt-6 text-xs text-ivory-dim md:flex-row">
           <p>© {new Date().getFullYear()} {siteConfig.name}. All rights reserved.</p>
-          <p>Designed by Ramesh Chavare Films</p>
+          <p>Designed by Ranveer Chavare</p>
         </div>
       </div>
     </footer>
