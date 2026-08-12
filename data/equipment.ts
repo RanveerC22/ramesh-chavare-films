@@ -158,7 +158,7 @@ export const accessories: Accessory[] = [
     name: "Steadicam M-2 Along With Operator",
     category: "Stabilizers",
     image:
-      "https://picsum.photos/seed/rcf-dji-ronin-4d/1200/900",
+      "/images/equipment/accessories/steadicam.webp",
     description:
       "Camera stabilization system with an experienced operator for smooth, controlled movement and fluid tracking shots.",
     dailyRate: 20000,
