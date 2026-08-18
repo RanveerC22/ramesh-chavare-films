@@ -110,10 +110,12 @@ export default function RateCardTable() {
       </div>
 
       <p className="no-print mt-5 text-xs leading-relaxed text-ivory-dim">
-        Rates shown are for standard daily rentals; weekly and production-block
-        pricing available on request. Security deposit required at pickup.
-        Can't find something here? We keep plenty of individual accessories and 
-        odd items off this list too — just ask us on WhatsApp.
+        Rates shown are indicative daily rates per item. Pricing may be adjusted
+        for long-day shoots, production-block bookings, or combined accessory
+        rentals — message us on WhatsApp for a quote tailored to your shoot.
+        Security deposit required at pickup. Can&apos;t find something here?
+        We stock individual accessories and items beyond this list too —
+        just ask.
       </p>
     </div>
   );
