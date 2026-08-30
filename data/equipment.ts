@@ -254,7 +254,7 @@ export const accessories: Accessory[] = [
     "/images/equipment/accessories/mavic-3.jpg",
   description:
     "Professional aerial cinematography with a professional drone pilot included — ideal for establishing shots, venue reveals, and large-scale event coverage.",
-  dailyRate: 6000,
+  dailyRate: 8000,
   },
 ];
 
