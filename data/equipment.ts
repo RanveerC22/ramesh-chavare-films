@@ -246,6 +246,16 @@ export const accessories: Accessory[] = [
       "Versatile wooden platform set for supporting cameras, monitors, laptops, and other production equipment at different heights.",
     dailyRate: 500,
   },
+  {
+  slug: "dji-mavic-3",
+  name: "DJI Mavic 3 (With Operator)",
+  category: "Aerial",
+  image:
+    "/images/equipment/accessories/mavic-3.jpg",
+  description:
+    "Professional aerial cinematography with a professional drone pilot included — ideal for establishing shots, venue reveals, and large-scale event coverage.",
+  dailyRate: 6000,
+  },
 ];
 
 // Items that appear ONLY on the Rate Card — not shown as an Equipment
