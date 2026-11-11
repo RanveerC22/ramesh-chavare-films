@@ -48,7 +48,7 @@ export const cameras: Camera[] = [
     brand: "Sony",
     model: "VENICE 2 8.6K",
     image:
-      "/images/equipment/cameras/sony_venis.png",
+      "/images/equipment/cameras/sony_fx6.jpg",
     description:
       "Flagship full-frame cinema camera designed for high-end films and premium productions with exceptional dynamic range.",
     specs: ["8.6K Full-Frame Sensor", "16 Stops Latitude", "Dual Base ISO 800/3200", "PL / E-Mount"],
