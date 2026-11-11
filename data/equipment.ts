@@ -276,7 +276,6 @@ export const rateCardOnlyItems: RateCardOnlyItem[] = [
   { slug: "matte-box-4", name: "Matte Box - 4 x 4", category: "Add-ons", dailyRate: 500 },
   { slug: "memory-card-120gb", name: "Prograde 120GB CF Express Type A Card", category: "Add-ons", dailyRate: 300 },
   { slug: "memory-card-160gb", name: "Lexar 160GB CF Express Type A Card", category: "Add-ons", dailyRate: 500 },
-  { slug: "memory-card-160gb", name: "Lexar 160GB CF Express Type A Card", category: "Add-ons", dailyRate: 500 },
 ];
 
 export const allEquipment = [
