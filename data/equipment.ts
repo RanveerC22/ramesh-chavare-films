@@ -43,18 +43,6 @@ export type Accessory = {
 };
 
 export const cameras: Camera[] = [
-   {
-    slug: "sony-venice-2",
-    brand: "Sony",
-    model: "VENICE 2 8.6K",
-    image:
-      "/images/equipment/cameras/sony_fx6.jpg",
-    description:
-      "Flagship full-frame cinema camera designed for high-end films and premium productions with exceptional dynamic range.",
-    specs: ["8.6K Full-Frame Sensor", "16 Stops Latitude", "Dual Base ISO 800/3200", "PL / E-Mount"],
-    dailyRate: 15000,
-    featured: true,
-  },
   {
     slug: "red-helium-8k",
     brand: "RED",
@@ -65,6 +53,18 @@ export const cameras: Camera[] = [
       "High-end 8K cinema camera delivering exceptional detail, dynamic range, and cinematic image quality for professional productions.",
     specs: ["8K HELIUM Sensor", "Up to 60fps in 8K", "REDCODE RAW", "16.5+ Stops Dynamic Range",],
     dailyRate: 7000,
+    featured: true,
+  },
+  {
+    slug: "sony-fx6",
+    brand: "Sony",
+    model: "Cinema Line FX6 4K",
+    image:
+      "/images/equipment/cameras/sony_fx6.jpg",
+    description:
+      "Compact full-frame cinema camera with fast autofocus and built-in ND, ideal for weddings, documentaries, and commercials.",
+    specs: ["Full-Frame 4K", "15+ Stops Dynamic Range", "Dual Base ISO 800/12800", "E-Mount", "Built-in Variable ND"],
+    dailyRate: 5000,
     featured: true,
   },
   {
